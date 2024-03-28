@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "br.fmu.aula4an"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "br.fmu.aula4an"
