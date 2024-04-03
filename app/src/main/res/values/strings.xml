@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Aula4aN</string>
     <string name="txt_somar">Somar</string>
+    <string name="txt_gorjeta">Gorjeta</string>
+    <string name="txt_valor">Valor</string>
+    <string name="txt_total">Total</string>
 </resources>

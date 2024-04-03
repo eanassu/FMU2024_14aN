@@ -27,4 +27,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void abrirGorjeta(View view) {
+        Intent intent = new Intent(this, GorjetaActivity.class);
+        startActivity(intent);
+    }
+
 }
