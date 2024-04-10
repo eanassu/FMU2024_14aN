@@ -49,4 +49,13 @@
         android:text="@string/txt_gorjeta"
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toTopOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="abrirDatabase"
+        android:text="@string/txt_database"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="382dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
