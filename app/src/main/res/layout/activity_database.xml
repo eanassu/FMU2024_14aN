@@ -135,4 +135,15 @@
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="@+id/editTextDataAdmissao"
         app:layout_constraintTop_toBottomOf="@+id/editTextDataAdmissao" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="7dp"
+        android:onClick="listar"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/buttonAtualizar"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAtualizar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
