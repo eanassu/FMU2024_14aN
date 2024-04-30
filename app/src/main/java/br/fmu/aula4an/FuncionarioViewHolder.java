@@ -14,7 +14,7 @@ public class FuncionarioViewHolder extends RecyclerView.ViewHolder {
         super(view);
         re = view.findViewById(R.id.item_re);
         nome = view.findViewById(R.id.item_nome);
-        dataAdmissao = view.findViewById(R.id.item_dataadmissao);
+        dataAdmissao = view.findViewById(R.id.item_data);
         salario = view.findViewById(R.id.item_salario);
     }
 }
