@@ -54,8 +54,23 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="48dp"
         android:onClick="abrirDatabase"
         android:text="@string/txt_database"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="382dp" />
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="1dp"
+        android:onClick="abrirDesenho"
+        android:text="@string/txt_desenho"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

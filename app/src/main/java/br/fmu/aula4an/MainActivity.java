@@ -37,4 +37,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void abrirDesenho( View view ) {
+        Intent intent = new Intent(this, DesenhoActivity.class);
+        startActivity(intent);
+    }
 }
